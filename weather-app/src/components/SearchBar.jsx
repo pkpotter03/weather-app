@@ -11,13 +11,13 @@ const SearchBar = ({ onSearch }) => {
     <div className="flex items-center justify-center mt-10">
       <input
         type="text"
-        className="text-black border p-2 rounded-l-lg"
+        className="text-black border p-2 rounded-l-lg h-10"
         placeholder="Enter city name"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
       <button
-        className="bg-blue-500 text-white p-2 rounded-r-lg"
+        className="bg-blue-500 text-white p-2 rounded-r-lg h-10"
         onClick={handleSearch}
       >
         Search

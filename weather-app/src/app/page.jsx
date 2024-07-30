@@ -5,6 +5,7 @@ import WeatherDisplay from '../components/WeatherDisplay';
 import ForecastDisplay from '../components/ForecastDisplay';
 import { getWeatherData, getForecastData } from '../lib/weather';
 
+
 export default function Home() {
   const [weather, setWeather] = useState(null);
   const [forecast, setForecast] = useState(null);

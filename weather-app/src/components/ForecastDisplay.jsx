@@ -59,9 +59,9 @@ const ForecastDisplay = ({ forecast }) => {
   return (
     <div className="flex flex-col items-center justify-center mt-10">
       <h2 className="text-2xl font-bold">5-Day Forecast</h2>
-      <div className="grid grid-cols-5 gap-4 mt-4">
+      <div className="flex flex-col gap-4 mt-4 sm:flex-row ">
         {groupedData.map((day, index) => (
-          <div key={index} className="flex flex-col items-center p-2 border rounded-lg">
+          <div key={index} className="flex flex-col items-center p-2 border rounded-lg ">
             <p>{day.date}</p>
             <img src={day.iconUrl} alt={day.condition} className="w-12 h-12"/>
             <p>Avg Temp: {day.avgTemp.toFixed(2)} °C</p>

@@ -60,19 +60,6 @@ The application will run at http://localhost:3000.
 2. View current weather details and a 5-day forecast.
 3. Observe the background dynamically change based on the weather condition.
    
-### Background Conditions
-
-The background updates according to the following conditions:
-Weather Condition	Background Image
-Clear	clear.jpg
-Clouds	cloudy.jpg
-Drizzle	drizzle.jpg
-Rain	rain.jpg
-Thunderstorm	thunderstorm.jpg
-Snow	snow.jpg
-Atmosphere (Fog)	fog.jpg
-Ensure these images are stored in the /public/images directory.
-
 ### Project Structure
 
   ```css

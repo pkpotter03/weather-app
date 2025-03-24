@@ -62,7 +62,7 @@ The application will run at http://localhost:3000.
    
 ### Project Structure
 
-  ```css
+```css
   weather-app/
 ├── public/
 │   └── images/
@@ -88,7 +88,8 @@ The application will run at http://localhost:3000.
 │       └── weather.jsx
 └── README.md
 
+---
 
+If you like this project, give it a ⭐ on GitHub! It really helps! 😊
 
-
-
+---
